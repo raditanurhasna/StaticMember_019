@@ -18,3 +18,10 @@ angka::~angka() {
 	delete[]arr;
 	cout << "Alamat Array Sudah Dilepaskan" << endl;
 }
+
+void angka::cetakData() {
+	for (int i = 1;i <= panjang;i++) {
+		cout << i << " = ";cin >> arr[i];
+	}
+	cout << endl;
+}
