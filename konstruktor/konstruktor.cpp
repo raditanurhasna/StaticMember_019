@@ -21,5 +21,9 @@ mahasiswa::mahasiswa() {
 }
 
 mahasiswa::mahasiswa(int iNim) {
-	nama = iNim
+	nama = iNim;
+}
+
+mahasiswa::mahasiswa(string iNama) {
+	nama = iNama;
 }
