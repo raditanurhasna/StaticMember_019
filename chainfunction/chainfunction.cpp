@@ -15,3 +15,9 @@ public:
 		return this->judul;
 	}
 }bukunya; 
+
+int main()
+{
+	cout << bukunya.setJudul("Matematika").getJudul();
+	return 0;
+}
